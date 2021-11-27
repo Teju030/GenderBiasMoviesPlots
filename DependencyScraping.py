@@ -35,7 +35,7 @@ def get_dependency_data_helper(filepath, movie_id):
                         token_id = t.get('id')
                         if token_id is not None:
 
-                            dependent = t.find("word").text
+                            dependent = t.find("lemma").text
                             dep_pos = t.find("pos").text
                             dep_ner = t.find("ner").text
 
@@ -60,8 +60,9 @@ def get_dependency_data(file_name):
     output_list = []
     input_file = open(file_name, 'r')
     movie_ids = input_file.readlines()
-    for mov_id in movie_ids:
-        output_list += get_dependency_data_helper("corenlp_plot_summaries/", mov_id.strip())
+    for mov_id in range(0, len(movie_ids)):
+        print("movie_id", movie_ids[mov_id].strip())
+        output_list += get_dependency_data_helper("corenlp_plot_summaries/", movie_ids[mov_id].strip())
     
     return output_list
 
@@ -71,10 +72,10 @@ def main():
     # dep_list = get_dependency_data('330')
     # dep_list = get_dependency_data('7806783')
     india_dep_list = get_dependency_data('india.txt')
-    write_csv_file(india_dep_list, 'india.csv')
+    write_csv_file(india_dep_list, 'india_lemma.csv')
 
     # usa_dep_list = get_dependency_data('usa.txt')
-    # write_csv_file(usa_dep_list, 'usa.csv')
+    # write_csv_file(usa_dep_list, 'usa2.csv')
     
       
 
