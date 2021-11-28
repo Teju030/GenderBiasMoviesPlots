@@ -1,0 +1,14 @@
+{"embeddings" : {"Google News": "embeddings/GoogleNews-vectors-negative300.bin"},"tests":
+		{
+			"Handsome vs Beautiful / Male vs Female":{
+				"X":["bury", "birth", "attend", "war", "grow"],
+				"Y":["know", "report", "come", "charge", "publish"],
+				"A":[
+					"male", "man", "boy", "brother", "he", "him", "his", "son", "father", "uncle", "grandfather"
+				],
+				"B":[
+					"female", "woman", "girl", "sister", "she", "her", "hers", "daughter", "mother", "aunt", "grandmother"
+				]
+			}
+		}
+	}
