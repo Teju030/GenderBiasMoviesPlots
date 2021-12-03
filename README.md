@@ -34,9 +34,9 @@ Run weat.py to get WEAT scores. Please download the embeddings from Stanford Glo
 
 ## 3. Collaborators
 
-Tejaswini Patil
-Jessica D'souza
-Surabhi Gujare
-Akshata Talele
-Vaishnavi Kotawar
+* Tejaswini Patil
+* Jessica D'souza
+* Surabhi Gujare
+* Akshata Talele
+* Vaishnavi Kotawar
 
