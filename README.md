@@ -34,8 +34,8 @@ Run weat.py to get WEAT scores. Please download the embeddings from Stanford Glo
 
 ## 3. Results
 
-![Word Cloud](demo/Female_word_cloud.png?raw=true "Figure: Adjective based Word cloud mappings
-for female.")
+
+<img src="demo/Female_word_cloud.png" width="400" height="400">
 
 * Here, Figure(a) and Figure(b) depicts
 the adjective based word cloud mappings for females in India for the movies before and after 2000
@@ -43,8 +43,8 @@ respectively.
 
 * Whereas, Figure(c) and Figure(d) depicts the adjectives based word cloud mappings for females in USA for the movies before and after 2000 respectively
 
-![Word Cloud](demo/Male_word_cloud.png?raw=true "Figure: Adjective based Word cloud mappings
-for male.")
+
+<img src="demo/Male_word_cloud.png" width="400" height="400">
 
 * Here, Figure(a) and Figure(b) depicts the adjective based word cloud mappings for males in India for the movies before and after year 2000 respectively. 
 
