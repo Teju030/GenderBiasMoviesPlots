@@ -34,11 +34,21 @@ Run weat.py to get WEAT scores. Please download the embeddings from Stanford Glo
 
 ## 3. Results
 
-![Word Cloud](demo/Word_Cloud.png?raw=true "1. India Before 2000 2. USA Before 2000 3. India After 2000 4. USA After 2000")
-* First Image: India Before 2000 
-* Second Image: USA Before 2000 
-* Third Image: India After 2000 
-* Fourth Image: USA After 2000"
+![Word Cloud](demo/Female_word_cloud.png?raw=true "Figure: Adjective based Word cloud mappings
+for female.")
+
+* Here, Figure(a) and Figure(b) depicts
+the adjective based word cloud mappings for females in India for the movies before and after 2000
+respectively. 
+
+* Whereas, Figure(c) and Figure(d) depicts the adjectives based word cloud mappings for females in USA for the movies before and after 2000 respectively
+
+![Word Cloud](demo/Male_word_cloud.png?raw=true "Figure: Adjective based Word cloud mappings
+for male.")
+
+* Here, Figure(a) and Figure(b) depicts the adjective based word cloud mappings for males in India for the movies before and after year 2000 respectively. 
+
+* Whereas, Figure(c) and Figure(d) depicts the adjectives based word cloud mappings for males in USA for movies before and after year 2000 respectively.
 
 ![Word Cloud](demo/WEAT.png?raw=true "1. India Before 2000 2. USA Before 2000 3. India After 2000 4. USA After 2000")
 
