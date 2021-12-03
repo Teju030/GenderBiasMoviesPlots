@@ -14,7 +14,7 @@ Gensim For Word Embeddings
 
 ### 2.1 Dependency parsing, POS tagging and NER
 
-StanfordNLP Core pipeling
+In order to study the bias amongst different genders, we need to find out how different characters from different genders are portrayed. This information can be extracted by utilizing the linguistic features used to describe each of the characters.  CoreNLP developed by the Stanford NLP group consists of parser that can be used to derive these linguistic annotations for any text.
 
 ### 2.2 dependency_scraping.py
 
@@ -22,7 +22,7 @@ This File consists of the code to get the governor, dependency and part of speec
 
 ### 2.3 cloud_mapping.py
 
-This python code will give the adjective and verb list for each proper noun or female/male synonymous words
+After running each movie plot through the parser and collecting the relevant tags, we now need to extract the relevant characteristics for every male and female characters. This python code will give the adjective and verb list for each proper noun or female/male synonymous words
 
 ### 2.4 Odds_Ratio_Calculation.py
 
