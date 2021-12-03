@@ -1,4 +1,4 @@
-# GenderBiasMoviesPlots
+# Gender Bias in Movie Plots based on geographical locations
 
 Movies are a simulation of society. They mirror the issues, problems, thinking and perception of the contemporary world we live in. Therefore, in any society, movies act as a strong medium to understand how prevalent gender bias and stereotypes are. Gender bias can be defined as dominance, in particular contexts (for example, in occupations or among primary social roles), of one gender over the other. As a consequence, the less dominant gender is underrepresented and stereotypes appear. This can be seen in movies as well, for example, characters like nurses tend to be female and doctors tend to be male. Also, more often than not, Women are stereotyped and sexualized when they are depicted in movies. 
 
