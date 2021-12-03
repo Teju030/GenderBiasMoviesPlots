@@ -32,3 +32,11 @@ This code computes the asymmetric words that occurs more often in men or women t
 
 Run weat.py to get WEAT scores. Please download the embeddings from Stanford Glove and put them under WEAT/embeddings/ folder
 
+## 3. Collaborators
+
+Tejaswini Patil
+Jessica D'souza
+Surabhi Gujare
+Akshata Talele
+Vaishnavi Kotawar
+
