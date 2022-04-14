@@ -10,52 +10,35 @@ In this project, we leverage Natural Language Processing (NLP) techniques to stu
 Python >= 3.7
 Gensim For Word Embeddings
 
+## 2. Architecture 
+<img src="demo/architecutre.png" width="400" height="400">
+
 ## 2. Folder and Code Walkthrough
 
-### 2.1 Dependency parsing, POS tagging and NER
+### 2.1 Collecting Data - CollectingMoviePlots.ipynb
 
-In order to study the bias amongst different genders, we need to find out how different characters from different genders are portrayed. This information can be extracted by utilizing the linguistic features used to describe each of the characters.  CoreNLP developed by the Stanford NLP group consists of parser that can be used to derive these linguistic annotations for any text.
+We use CMU Dataset(http://www.cs.cmu.edu/~ark/personas/) which scrapped the data from Wikipedia in November 2012. For the remaining years 2013-2020, we extract the movie plots from Wikipedia for the different countries. The code is present in CollectingMoviePlots.ipynb
 
-### 2.2 dependency_scraping.py
+### 2.2 EventChainConstruction.ipynb
 
-This File consists of the code to get the governor, dependency and part of speech tag for every token in the movie plot.
+This notebook consists of our implementation of the Event Chain Architecture we've proposed.
 
-### 2.3 cloud_mapping.py
+### 2.3 WeightedLogOddsRatio.ipynb
 
-After running each movie plot through the parser and collecting the relevant tags, we now need to extract the relevant characteristics for every male and female characters. This python code will give the adjective and verb list for each proper noun or female/male synonymous words
-
-### 2.4 Odds_Ratio_Calculation.py
-
-This code computes the asymmetric words that occurs more often in men or women that the other half
+We use WeightedLogOdds Ratios of the code to get the assymetrics unigrams and bigrams. Code is present in WeightedLogOddsRatio.ipynb
 
 ### 2.5 weat.py and config.py
 
-Run weat.py to get WEAT scores. Please download the embeddings from Stanford Glove and put them under WEAT/embeddings/ folder
+Run weat.py to get WEAT scores. 
 
 ## 3. Results
 
-
-<img src="demo/Female_word_cloud.png" width="400" height="400">
-
-* Here, Figure(a) and Figure(b) depicts
-the adjective based word cloud mappings for females in India for the movies before and after 2000
-respectively. 
-
-* Whereas, Figure(c) and Figure(d) depicts the adjectives based word cloud mappings for females in USA for the movies before and after 2000 respectively
-
-
-<img src="demo/Male_word_cloud.png" width="400" height="400">
-
-* Here, Figure(a) and Figure(b) depicts the adjective based word cloud mappings for males in India for the movies before and after year 2000 respectively. 
-
-* Whereas, Figure(c) and Figure(d) depicts the adjectives based word cloud mappings for males in USA for movies before and after year 2000 respectively.
-
-![Word Cloud](demo/WEAT.png?raw=true "1. India Before 2000 2. USA Before 2000 3. India After 2000 4. USA After 2000")
+Kindly refer [here](https://drive.google.com/drive/folders/1aYc4OZHBLFc9oQIl9r8HN5ExUTgitNVW?usp=sharing) for our results and collected data.
 
 ## 4. Collaborators
 
-* Tejaswini Patil
 * Jessica D'souza
+* Tejaswini Patil
 * Surabhi Gujare
 * Akshata Talele
 * Vaishnavi Kotawar
