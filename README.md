@@ -11,7 +11,7 @@ Python >= 3.7
 Gensim For Word Embeddings
 
 ## 2. Architecture 
-<img src="demo/architecutre.png" width="400" height="400">
+<img src="demo/architecture.png">
 
 ## 2. Folder and Code Walkthrough
 
