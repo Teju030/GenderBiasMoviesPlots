@@ -17,7 +17,7 @@ Gensim For Word Embeddings
 
 ### 2.1 Collecting Data - CollectingMoviePlots.ipynb
 
-We use CMU Dataset(http://www.cs.cmu.edu/~ark/personas/) which scrapped the data from Wikipedia in November 2012. For the remaining years 2013-2020, we extract the movie plots from Wikipedia for the different countries. The code is present in CollectingMoviePlots.ipynb
+We use [CMU Dataset](http://www.cs.cmu.edu/~ark/personas/) which scrapped the data from Wikipedia in November 2012. For the remaining years 2013-2020, we extract the movie plots from Wikipedia for the different countries. The code is present in CollectingMoviePlots.ipynb
 
 ### 2.2 EventChainConstruction.ipynb
 
