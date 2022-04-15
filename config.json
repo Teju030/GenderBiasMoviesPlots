@@ -1,0 +1,11 @@
+{"embeddings" : {"Glove": "embeddings/glove.840B.300d.processed.txt", "Our Model": "embeddings/my_model.bin"},"tests":
+		{
+			"CMale vs Female Gendered Attributes / Male vs Female (US 1940)":{
+				"X":[],
+				"Y":[],
+				"A":["male", "man", "boy", "brother", "he", "him", "his", "son"],
+				"B":["female", "woman", "girl", "sister", "she", "her", "hers", "daughter"]
+			}
+
+		}
+	}
