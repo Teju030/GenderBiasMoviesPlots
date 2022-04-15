@@ -25,7 +25,7 @@ This notebook consists of our implementation of the Event Chain Architecture we'
 
 ### 2.3 WeightedLogOddsRatio.ipynb
 
-We use WeightedLogOdds Ratios of the code to get the assymetrics unigrams and bigrams. Code is present in WeightedLogOddsRatio.ipynb
+We use Weighted Log Odds Ratio to get the assymetric unigrams and bigrams for each of the gender. Code is present in WeightedLogOddsRatio.ipynb
 
 ### 2.5 weat.py and config.py
 
