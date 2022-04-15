@@ -29,7 +29,7 @@ We use Weighted Log Odds Ratio to get the assymetric unigrams and bigrams for ea
 
 ### 2.5 weat.py and config.py
 
-Run weat.py to get WEAT scores. 
+Run weat.py to get WEAT scores using config.json
 
 ## 3. Results
 
